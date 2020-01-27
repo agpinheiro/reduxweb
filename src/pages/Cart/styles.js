@@ -6,7 +6,6 @@ export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
 
-
   footer {
     margin-top: 30px;
     display: flex;
@@ -15,7 +14,7 @@ export const Container = styled.div`
 
   button {
     background: #7159c1;
-    color #fff;
+    color: #fff;
     border: 0;
     border-radius: 4px;
     padding: 12px 20px;
@@ -24,9 +23,8 @@ export const Container = styled.div`
     transition: background 0.2s;
 
     &:hover {
-      background: ${darken(0.03, '#7159c1')}
+      background: ${darken(0.03, '#7159c1')};
     }
-
   }
 `;
 
